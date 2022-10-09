@@ -6,20 +6,43 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  /* background: rgb(162, 142, 233); */
   font-family: Roboto Mono, serif;
+  color: rgb(39, 40, 66);
   background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  font-size: 120%;
 }
 button {
   margin: 0.5em;
   border-radius: 33px;
   border: none;
-  height: 2em;
-  width: 2em;
+  height: 3em;
+  width: 3em;
+  background: rgb(195, 197, 240);
+  color: rgb(39, 40, 66);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: rgb(222, 223, 244);
+}
+h1.temp {
+  margin: 0;
+}
+input.searchBar {
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 23px;
+  background: rgb(195, 197, 240);
+  color: rgb(39, 40, 66);
+  font-family: inherit;
+  font-size: 100%;
+  width: calc(100%-100px);
 }
 .card {
   background: rgb(123, 128, 217);
-  opacity: 0.9;
+  opacity: 0.8;
   padding: 2em;
   border-radius: 30px;
   width: 100%;
